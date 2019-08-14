@@ -1,2 +1,2 @@
 # site-clone-Jovem-Nerd
-site make in 2018 with (html,css)
+Website made in 2018 with (html, css)
