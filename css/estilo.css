@@ -1,0 +1,337 @@
+.site {
+    color: #f0f0fa;
+    background-color: #1e1e22;
+    display: block;
+    
+    
+}
+.site-largura{
+    width: 1270px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+/* Menu do site*/
+
+.menu{
+    width: 100%;
+    background-color: #141418;
+    overflow: hidden;
+    text-decoration: none;
+    height: 10em;
+}
+
+.menu img{
+    padding: 0 12px;
+    float: left;
+    
+}
+
+
+.menu nav{
+    float: left;
+    
+}
+
+.menu nav ul{
+    font-size: 18px;
+    
+}
+
+.menu nav ul li{
+    display: inline-block;
+    padding-top: 5em ;   
+
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family:sans-serif;
+    color: #f0f0fa;
+    padding: 5px ;
+}
+
+#brunker{
+    color: #dc7800;
+}
+
+
+#cast{
+
+    color: #cd2323;
+}
+
+#office{
+    color: #3cb4b4;
+}
+
+#player{
+    color: #6eb400;
+
+}
+
+.menu form {    
+    float: left;
+    padding: 0 12px;
+    margin: 0;
+    padding-top: 5em ; 
+    
+}
+
+.menu form input{
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 2.5em;
+    padding: 0 0.5em; 
+    font-family:sans-serif;
+    font-style: italic;
+    color: white;
+    height: 2.5em;
+    width: 12em;
+}
+
+/* Meio do Site */
+
+
+header{
+    padding: 40px 0;
+    padding-left: 10px;
+}
+
+header > h1{
+    font-family: sans-serif;
+    font-size: 40px; 
+
+}
+
+header > h1 > a  {
+   text-decoration: none; 
+
+}
+header > h1 > a > span  {
+    color: #cd2323;
+ 
+ }
+
+.campo-de-busca nav form{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px ;
+    
+}
+
+.campo-de-busca nav form input{
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 2.5em;
+    padding: 0 0.5em; 
+    font-family:sans-serif;
+    font-style: italic;
+    color:#f0f0fa;
+    height: 2em;
+    width: 35em;
+
+}
+
+.filtro-lista{
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+
+
+.filtro-lista nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.filtro-lista nav ul li a {
+    text-decoration: none; 
+}
+
+
+.meio-site {
+    overflow: hidden;
+    padding-bottom: 1.5em;
+    
+}
+
+
+.sublink-link {
+    height: 0;
+    padding-bottom: 10px;
+}
+
+.sublink-link figure figcaption{
+    background-color: #141418;
+    width: 63.7%;
+}
+.sublink-link figure figcaption a{
+    text-decoration: none;
+}
+.sublink-link figure figcaption h3 a{
+    font-size: 17px;
+    color: #cd2323;
+}
+
+.sublink-link figure figcaption h3 span{
+    color: gray;
+}
+
+.sublink-link figure figcaption h2{
+    font-size: 35px ;
+}
+
+.meio-site main article {
+    padding: 10px;
+    background-color: #141418;
+    float: right;
+    
+    width: 31.5%;
+    margin-right: 50px;
+    height: 30.5em;
+    font-family: sans-serif;
+    
+}
+
+.meio-site main article h2 {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.meio-site main article h2 span {
+    color: #cd2323;
+
+} article p strong{
+    font-weight: bold;
+    color: #f0f0fa;
+}
+.meio-site main article p{  
+    
+    color: rgb(201, 201, 201);
+    line-height: 30px;
+    
+}
+
+.meio2 {
+    margin-top: 30em ; 
+    
+}
+
+.meio2 ul{
+    padding-top: 10px
+}
+
+.meio2 ul li  {
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+.meio2 ul li figure {
+    padding-top: 15px;
+}
+   
+.meio2 ul li figure a{
+    text-decoration: none;
+
+}
+.meio2 ul li figure figcaption {
+    background-color: #141418;
+}
+
+.meio2 ul li figure figcaption h2 {
+    font-size: 21px;
+}
+
+.meio2 ul li figure figcaption h3 {
+    font-size: 18px;
+    color: #cd2323;
+}
+
+
+.meio2 ul li figure figcaption h3 span {
+    color: gray;
+}
+
+
+.proxima {
+    padding: 60px 0;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.proxima input{
+    color: #f0f0fa;
+    background: transparent;
+    font-size: 25px;
+    text-align: center;
+    width: 50px;
+    height: 45px;
+    border-color: #cd2323;
+    border-radius: 50px ;
+}
+
+.proxima a{
+    text-decoration: none;
+}
+
+
+
+
+/* Footer do site */
+
+
+.footer-principal{
+    background-color: #00000a;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+    
+}
+.footer-principal ul li h3{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #3cb4b4;
+    margin: 0 0 .625rem;
+
+}
+
+.footer-principal ul {
+    padding: 45px 30px 35px;
+    display: inline-block;
+    float: left;
+    
+}
+
+.footer-principal ul li {
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+
+.footer-principal ul li a {
+    text-decoration: none;
+
+}
+.footer-principal p{
+    color: grey;
+    clear: both;
+    float: left;
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding: 0 30px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-principal p strong{
+    color: #f0f0fa;
+    font-weight: bold;
+}
